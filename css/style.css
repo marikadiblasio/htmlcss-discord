@@ -21,8 +21,8 @@
 }
 .container {
     max-width: 1200px;
-    /* background-color: var(--primary); */
     margin: 0 auto;
+    padding: 5px 10px;
 }
 .d-flex {
     display: flex;
@@ -79,7 +79,7 @@ header {
     background-position: center;
 }
 .header-text {
-    width: 60%;
+    max-width: 60%;
 }
 .header-text > h1.text-center {
     padding-bottom: 2rem;
@@ -100,7 +100,7 @@ header ul {
 }
 /* main */
 .image {
-    width: 75%;
+    width: 65%;
 }
 .text {
     width: 35%;
@@ -120,6 +120,31 @@ footer {
     padding-bottom: 20px;
     border-top: 2px solid var(--accessory);
 }
-.first-a {
+footer ul {
+    padding-top: 15px;
+    line-height: 2rem;
+}
+.footer-top > ul > li > ul >li:first-child >a, h2 {
     color: var(--accessory);
 }
+.foote-top > ul{
+   justify-content: space-around;
+   padding: 5px 35px;
+}
+.special {
+    max-width: 200px;
+}
+ select {
+    background-color: var(--secundary);
+    color: var(--primary);
+    font-family: 'Noto Sans', sans-serif;
+    border: 1px solid var(--secundary);
+    background-image: url(../img/ita.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 21px;
+ }
+ .brand {
+   padding-right: 45px;
+ }
