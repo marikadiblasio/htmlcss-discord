@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+/* Temporary */
+.debug {
+    border: 1px solid  red;
+}
+/* General */
+:root{
+    /* Color styles */
+    --section-bg: #D9D9D9;
+    --primary: #FFFFFF;
+    --secundary: #23272A;
+    --header-bg: #255EE9;
+    --dark-text: #000000;
+    --accessory: #7289DA;
+}
+.container {
+    max-width: 1200px;
+    /* background-color: var(--primary); */
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+ul {
+    list-style: none;
+    color: var(--primary);
+}
+a {
+    text-decoration: none;
+    color: var(--primary)
+}
+.light-text {
+    color: var(--primary);
+}
+/* Buttons */
+.btn {
+    background-color: var(--primary);
+    color: var(--dark-text);
+    padding: 9px 7px;
+    border-radius: 20px;
+}
+.black {
+    background-color: var(--secundary);
+    color: var(--primary);
+    margin-left: 10px;
+}
+.accessory-btn {
+    background-color: var(--accessory);
+    color: var(--primary);
+}
+/* To Center */
+.text-center {
+    text-align: center;
+}
+.align-center {
+    align-items: center;
+}
+.flex-center {
+    justify-content: center;
+    align-content: center;
+}
+/* Header */
+header {
+    background-color: var(--header-bg);
+}
+.hero {
+    min-height: 500px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+}
+.header-text {
+    width: 60%;
+}
+.header-text > h1.text-center {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+.header-text > p.text-center {
+    word-spacing: 0.3em;
+    padding-bottom: 6px;
+}
+.header-top {
+    padding-top: 5px;
+}
+header nav {
+    width: 60%;
+}
+header ul {
+    justify-content: space-around;
+}
+/* main */
+.image {
+    width: 75%;
+}
+.text {
+    width: 35%;
+}
+.even {
+    background-color: var(--section-bg);
+}
+.reverse {
+    flex-flow: row-reverse wrap;
+}
+/* Footer */
+footer {
+    background-color: var(--secundary);
+}
+.footer-bottom {
+    padding-top: 6px;
+    padding-bottom: 20px;
+    border-top: 2px solid var(--accessory);
+}
+.first-a {
+    color: var(--accessory);
+}
