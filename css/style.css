@@ -5,10 +5,6 @@
     font-family: 'Noto Sans', sans-serif;
 
 }
-/* Temporary */
-.debug {
-    border: 1px solid  red;
-}
 /* General */
 :root{
     /* Color styles */
@@ -18,6 +14,8 @@
     --header-bg: #255EE9;
     --dark-text: #000000;
     --accessory: #7289DA;
+    --dark-hover: #36393f;
+    --accessory-hover: #adb4ff;
 }
 .container {
     max-width: 1200px;
@@ -57,6 +55,23 @@ a {
 .accessory-btn {
     background-color: var(--accessory);
     color: var(--primary);
+}
+/* hover */
+li a:hover{
+    text-decoration: underline;
+}
+.btn:hover{
+    color: var(--accessory);
+}
+.btn.black:hover {
+    background-color: var(--dark-hover);
+    color: var(--primary);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+.btn.accessory-btn:hover {
+    background-color: var(--accessory-hover);
+    color: var(--primary);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
 /* To Center */
 .text-center {
