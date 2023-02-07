@@ -106,11 +106,11 @@ header ul {
     width: 35%;
     padding: 40px 25px;
 }
-.text h2 {
+.text h2, .big-text h2{
     font-size: 2.6rem;
     padding-bottom: 30px;
 }
-.text p {
+.text p, .big-text p {
     /* font-size: 1.1rem; */
     font-weight: 500;
 }
@@ -119,6 +119,25 @@ header ul {
 }
 .reverse {
     flex-flow: row-reverse wrap;
+}
+
+.big-img, .big-text {
+    text-align: center;
+    width: 87%;
+    margin: 0 auto;
+}
+.ready  {
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.ready span {
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 /* Footer */
 footer {
